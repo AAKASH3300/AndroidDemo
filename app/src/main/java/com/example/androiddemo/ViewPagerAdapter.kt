@@ -20,7 +20,7 @@ class ViewPagerAdapter(
 
     override fun onBindViewHolder(holder: ViewPagerViewHolder, position: Int) {
         val curImage = images[position]
-        holder.itemView.findViewById<ImageView>(R.id.tvImage).        setImageResource(curImage)
+        holder.itemView.findViewById<ImageView>(R.id.tvImage).setImageResource(curImage)
 
     }
 
